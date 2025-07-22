@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voices of Revolution: A Campaign for Liberty and Change (1688–1804)</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Light blue-gray background */
+            color: #334155; /* Dark slate gray text */
+        }
+        /* Custom scrollbar for better aesthetics */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #e2e8f0;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #94a3b8;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #64748b;
+        }
+        /* Styling for video elements */
+        .responsive-video {
+            width: 100%;
+            height: auto; /* Maintain aspect ratio */
+            max-width: 800px; /* Max width for videos */
+            margin: 0 auto; /* Center the video */
+            border-radius: 0.5rem; /* rounded-lg */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-lg */
+            display: block; /* Ensure it takes up full width of its container */
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+    <!-- Header Section -->
+    <header class="bg-gradient-to-r from-blue-700 to-indigo-800 text-white p-6 shadow-lg rounded-b-xl">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl md:text-5xl font-extrabold mb-2 leading-tight">
+                <i class="fas fa-fist-raised mr-3"></i> Voices of Revolution
+            </h1>
+            <p class="text-xl md:text-2xl font-light">A Campaign for Liberty and Change (1688–1804)</p>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="bg-gray-800 shadow-md py-3 sticky top-0 z-50">
+        <div class="container mx-auto px-4">
+            <ul class="flex flex-wrap justify-center space-x-2 sm:space-x-4 text-sm md:text-base">
+                <li><a href="#" data-page="home" class="nav-link text-gray-200 hover:text-white px-3 py-2 rounded-md transition duration-300 ease-in-out hover:bg-gray-700">Home</a></li>
+                <li><a href="#" data-page="glorious" class="nav-link text-gray-200 hover:text-white px-3 py-2 rounded-md transition duration-300 ease-in-out hover:bg-gray-700">Glorious Revolution</a></li>
+                <li><a href="#" data-page="american" class="nav-link text-gray-200 hover:text-white px-3 py-2 rounded-md transition duration-300 ease-in-out hover:bg-gray-700">American Revolution</a></li>
+                <li><a href="#" data-page="french" class="nav-link text-gray-200 hover:text-white px-3 py-2 rounded-md transition duration-300 ease-in-out hover:bg-gray-700">French Revolution</a></li>
+                <li><a href="#" data-page="haitian" class="nav-link text-gray-200 hover:text-white px-3 py-2 rounded-md transition duration-300 ease-in-out hover:bg-gray-700">Haitian Revolution</a></li>
+                <li><a href="#" data-page="declarations" class="nav-link text-gray-200 hover:text-white px-3 py-2 rounded-md transition duration-300 ease-in-out hover:bg-gray-700">Declarations Gallery</a></li>
+                <li><a href="#" data-page="debate" class="nav-link text-gray-200 hover:text-white px-3 py-2 rounded-md transition duration-300 ease-in-out hover:bg-gray-700">Debate Zone</a></li>
+                <li><a href="#" data-page="timeline" class="nav-link text-gray-200 hover:text-white px-3 py-2 rounded-md transition duration-300 ease-in-out hover:bg-gray-700">Timeline</a></li>
+                <li><a href="#" data-page="propaganda" class="nav-link text-gray-200 hover:text-white px-3 py-2 rounded-md transition duration-300 ease-in-out hover:bg-gray-700">Propaganda</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content Area - All sections are now directly in HTML -->
+    <main id="content" class="flex-grow container mx-auto p-6 md:p-8 my-8 bg-white shadow-xl rounded-lg">
+
+        <!-- Home Page Content -->
+        <section id="home-page" class="page-content">
+            <div class="text-center py-12 px-4">
+                <h2 class="text-5xl font-bold text-blue-700 mb-6 animate-pulse">Welcome, Fellow Revolutionary!</h2>
+                <p class="text-xl md:text-2xl leading-relaxed text-gray-700 mb-8">
+                    As a campaign leader, I call upon you to delve into the profound moments that shaped the course of human history.
+                    From the quiet assertion of parliamentary power in 17th-century England to the thunderous cries for liberty
+                    across 18th-century America, France, and Haiti, these revolutions ignited the flame of change and redefined the very meaning of governance.
+                </p>
+                <p class="text-lg md:text-xl leading-relaxed text-gray-600 mb-8">
+                    This platform serves as your guide through these pivotal eras. Explore the struggles, triumphs, and enduring legacies
+                    of the Glorious, American, French, and Haitian Revolutions. Understand the declarations that codified new ideals,
+                    engage in the debates that continue to resonate in contemporary society, and draw inspiration from the powerful visuals
+                    that rallied nations to action. Join us in understanding how these historical movements laid the groundwork for modern concepts of human rights and self-determination.
+                </p>
+
+                <!-- Homepage Hero Image Placeholder -->
+                <div class="mb-8">
+                    <img src="./images/Revolutionary Banner.jpg" alt="Revolutionary Banner" class="w-full rounded-lg shadow-lg mx-auto max-w-4xl">
+                    <p class="text-sm text-gray-500 mt-2"><em>A powerful visual representing the collective spirit and diverse origins of revolutionary movements.</em></p>
+                </div>
+
+                <!-- Homepage Video Placeholder -->
+                <div class="mb-10">
+                    <h3 class="text-3xl font-bold text-gray-800 mb-4">Watch Our Campaign Video</h3>
+                    <video controls class="responsive-video">
+                        <source src="./video/History_ An Introduction to the Industrial Revolution - Learn Liberty.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p class="text-sm text-gray-500 mt-2"><em>An introductory video providing a sweeping overview of the Age of Revolutions and its significance.</em></p>
+                </div>
+
+                <div class="mt-10 flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="#" data-page="declarations" class="nav-link bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105 flex items-center justify-center">
+                        <i class="fas fa-file-alt mr-2"></i> Explore Declarations
+                    </a>
+                    <a href="#" data-page="timeline" class="nav-link bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105 flex items-center justify-center">
+                        <i class="fas fa-history mr-2"></i> View Timeline
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Glorious Revolution Page Content -->
+        <section id="glorious-page" class="page-content hidden">
+            <div class="py-8 px-4">
+                <h2 class="text-4xl font-bold text-blue-700 mb-6 text-center">Glorious Revolution (1688-1689): Parliament Over Monarchy</h2>
+
+                <!-- Revolution Image Placeholder -->
+                <div class="mb-8">
+                    <img src="./images/Glorious Revolution.avif" alt="Glorious Revolution Image" class="w-full rounded-lg shadow-lg mx-auto max-w-3xl">
+                    <p class="text-sm text-gray-500 mt-2 text-center"><em>A representative image capturing a key moment or figure from the Glorious Revolution.</em></p>
+                </div>
+
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md mb-6">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-3"><i class="fas fa-info-circle mr-2"></i> Overview</h3>
+                    <p class="text-lg leading-relaxed text-gray-700">The Glorious Revolution was a pivotal event in English history, occurring from 1688 to 1689. It involved the overthrow of Catholic King James II by a union of English Parliamentarians with the Dutch stadtholder William III of Orange-Nassau. This relatively bloodless coup was a direct response to James II's attempts to assert royal absolutism and promote Catholicism, which threatened the Protestant establishment and parliamentary power. The revolution ultimately established the supremacy of Parliament over the Crown, fundamentally altering the balance of power in England.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md mb-6">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-3"><i class="fas fa-users mr-2"></i> Key Figures</h3>
+                    <p class="text-lg leading-relaxed text-gray-700">Key figures include King James II, whose policies sparked the crisis; William of Orange and his wife Mary II (James II's Protestant daughter), who were invited by Parliament to take the throne; and influential Parliamentarians such as the Earl of Danby, who played a crucial role in orchestrating the invitation to William.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md mb-6">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-3"><i class="fas fa-lightbulb mr-2"></i> Lasting Impact</h3>
+                    <p class="text-lg leading-relaxed text-gray-700">The Glorious Revolution had profound and lasting impacts. It firmly established the principle of parliamentary sovereignty, meaning Parliament's laws were supreme and the monarch ruled by consent, not divine right. This led directly to the English Bill of Rights (1689), which guaranteed certain rights to citizens and further limited royal power. It also influenced political thought on limited government and individual liberties across Europe and America, serving as a significant precursor to later revolutionary movements.</p>
+                </div>
+
+                <!-- Revolution Video Placeholder -->
+                <div class="mt-8">
+                    <h3 class="text-3xl font-bold text-gray-800 mb-4 text-center">Learn More: Video Overview</h3>
+                    <video controls class="responsive-video">
+                        <source src="./video/Glorious Revolution.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p class="text-sm text-gray-500 mt-2 text-center"><em>A video offering a deeper dive into the causes, events, and consequences of the Glorious Revolution.</em></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- American Revolution Page Content -->
+        <section id="american-page" class="page-content hidden">
+            <div class="py-8 px-4">
+                <h2 class="text-4xl font-bold text-blue-700 mb-6 text-center">American Revolution (1775-1783): Freedom from Empire</h2>
+
+                <!-- Revolution Image Placeholder -->
+                <div class="mb-8">
+                    <img src="./images/American Revolution.jpg" alt="American Revolution Image" class="w-full rounded-lg shadow-lg mx-auto max-w-3xl">
+                    <p class="text-sm text-gray-500 mt-2 text-center"><em>A representative image capturing a key moment or figure from the American Revolution.</em></p>
+                </div>
+
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md mb-6">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-3"><i class="fas fa-info-circle mr-2"></i> Overview</h3>
+                    <p class="text-lg leading-relaxed text-gray-700">The American Revolution was a transformative political upheaval that took place in the latter half of the 18th century, from 1775 to 1783. It saw thirteen British colonies in North America unite to break free from the British Empire, ultimately forming the independent United States of America. Fueled by Enlightenment ideals and growing resentment over British taxation without representation, the conflict escalated from protests to armed struggle, culminating in a decisive victory for the colonists.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md mb-6">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-3"><i class="fas fa-users mr-2"></i> Key Figures</h3>
+                    <p class="text-lg leading-relaxed text-gray-700">Prominent figures include George Washington, the commander-in-chief of the Continental Army and first U.S. President; Thomas Jefferson, the primary author of the Declaration of Independence; Benjamin Franklin, a key diplomat and statesman; and John Adams, a leading advocate for independence and second U.S. President. European figures like Marquis de Lafayette and Baron von Steuben also played significant roles.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md mb-6">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-3"><i class="fas fa-lightbulb mr-2"></i> Lasting Impact</h3>
+                    <p class="text-lg leading-relaxed text-gray-700">The American Revolution led to the independence of the United States, establishing the first modern republic based on democratic principles and popular sovereignty. It inspired numerous independence movements and democratic reforms worldwide, particularly in Latin America and France. However, its ideals of liberty were profoundly contradicted by the continued institution of slavery, highlighting a major paradox at the nation's founding that would lead to future conflicts.</p>
+                </div>
+
+                <!-- Revolution Video Placeholder -->
+                <div class="mt-8">
+                    <h3 class="text-3xl font-bold text-gray-800 mb-4 text-center">Learn More: Video Overview</h3>
+                    <video controls class="responsive-video">
+                        <source src="./video/American Revolution.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p class="text-sm text-gray-500 mt-2 text-center"><em>A video offering a deeper dive into the causes, events, and consequences of the American Revolution.</em></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- French Revolution Page Content -->
+        <section id="french-page" class="page-content hidden">
+            <div class="py-8 px-4">
+                <h2 class="text-4xl font-bold text-blue-700 mb-6 text-center">French Revolution (1789-1799): Liberty, Equality, Fraternity</h2>
+
+                <!-- Revolution Image Placeholder -->
+                <div class="mb-8">
+                    <img src="./images/French Revolution.webp" alt="French Revolution Image" class="w-full rounded-lg shadow-lg mx-auto max-w-3xl">
+                    <p class="text-sm text-gray-500 mt-2 text-center"><em>A representative image capturing a key moment or figure from the French Revolution.</em></p>
+                </div>
+
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md mb-6">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-3"><i class="fas fa-info-circle mr-2"></i> Overview</h3>
+                    <p class="text-lg leading-relaxed text-gray-700">The French Revolution was a period of radical social and political upheaval in France that lasted from 1789 until 1799. It marked a dramatic shift from an absolute monarchy and feudal system to a republic, though it was characterized by immense violence, political instability, and successive changes in government. The revolution began with the storming of the Bastille and progressed through various phases, including the Reign of Terror, before culminating in the rise of Napoleon Bonaparte.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md mb-6">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-3"><i class="fas fa-users mr-2"></i> Key Figures</h3>
+                    <p class="text-lg leading-relaxed text-gray-700">Key figures include Maximilien Robespierre, a leading figure of the Jacobins and the architect of the Reign of Terror; King Louis XVI and Marie Antoinette, whose executions symbolized the end of the monarchy; and later, Napoleon Bonaparte, who rose to power during the revolution's final stages and transformed France into an empire.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md mb-6">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-3"><i class="fas fa-lightbulb mr-2"></i> Lasting Impact</h3>
+                    <p class="text-lg leading-relaxed text-gray-700">The French Revolution profoundly impacted French and modern history. It abolished feudalism, dismantled the monarchy, and introduced concepts of popular sovereignty, citizenship, and universal rights (though initially limited). It inspired nationalist movements and democratic reforms across Europe and the world, spreading ideals of liberty, equality, and fraternity. Despite its violent excesses and eventual return to authoritarian rule under Napoleon, its legacy of radical change and its influence on political thought are undeniable.</p>
+                </div>
+
+                <!-- Revolution Video Placeholder -->
+                <div class="mt-8">
+                    <h3 class="text-3xl font-bold text-gray-800 mb-4 text-center">Learn More: Video Overview</h3>
+                    <video controls class="responsive-video">
+                        <source src="./video/French Revolution.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p class="text-sm text-gray-500 mt-2 text-center"><em>A video offering a deeper dive into the causes, events, and consequences of the French Revolution.</em></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Haitian Revolution Page Content -->
+        <section id="haitian-page" class="page-content hidden">
+            <div class="py-8 px-4">
+                <h2 class="text-4xl font-bold text-blue-700 mb-6 text-center">Haitian Revolution (1791-1804): The Fight Against Slavery and Colonialism</h2>
+
+                <!-- Revolution Image Placeholder -->
+                <div class="mb-8">
+                    <img src="./images/Haitian Revolution.webp" alt="Haitian Revolution Image" class="w-full rounded-lg shadow-lg mx-auto max-w-3xl">
+                    <p class="text-sm text-gray-500 mt-2 text-center"><em>A representative image capturing a key moment or figure from the Haitian Revolution.</em></p>
+                </div>
+
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md mb-6">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-3"><i class="fas fa-info-circle mr-2"></i> Overview</h3>
+                    <p class="text-lg leading-relaxed text-gray-700">The Haitian Revolution, spanning from 1791 to 1804, was a monumental and unprecedented event: a successful insurrection by self-liberated slaves against French colonial rule in Saint-Domingue (modern-day Haiti). It was the only slave revolt in history to result in the founding of a state, marking a definitive victory against both slavery and European colonialism. The revolution was marked by fierce fighting, complex political maneuvering, and the unwavering determination of the enslaved population.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md mb-6">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-3"><i class="fas fa-users mr-2"></i> Key Figures</h3>
+                    <p class="text-lg leading-relaxed text-gray-700">The most prominent figure was Toussaint Louverture, a brilliant military strategist and political leader who rose from slavery to lead the revolution. Other key figures include Jean-Jacques Dessalines, Louverture's successor and Haiti's first emperor; and Henri Christophe, another important general who later became king of northern Haiti.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md mb-6">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-3"><i class="fas fa-lightbulb mr-2"></i> Lasting Impact</h3>
+                    <p class="text-lg leading-relaxed text-gray-700">The Haitian Revolution achieved complete abolition of slavery and colonial rule, establishing Haiti as the first independent black republic in the world and the second independent nation in the Americas. This had a profound global impact, serving as a beacon of hope for enslaved people worldwide and a terrifying warning to slave-owning powers. It forced a re-evaluation of the Enlightenment ideals of liberty and equality, exposing the hypocrisy of nations that championed freedom while maintaining slavery. Despite its triumph, Haiti faced severe international isolation and economic hardship for generations due to punitive reparations demanded by France and a global embargo by slave-owning nations.</p>
+                </div>
+
+                <!-- Revolution Video Placeholder -->
+                <div class="mt-8">
+                    <h3 class="text-3xl font-bold text-gray-800 mb-4 text-center">Learn More: Video Overview</h3>
+                    <video controls class="responsive-video">
+                        <source src="./video/Haitian Revolution.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p class="text-sm text-gray-500 mt-2 text-center"><em>A video offering a deeper dive into the causes, events, and consequences of the Haitian Revolution.</em></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Declarations Gallery Page Content -->
+        <section id="declarations-page" class="page-content hidden">
+            <div class="py-8 px-4">
+                <h2 class="text-4xl font-bold text-blue-700 mb-8 text-center">Declarations Gallery: Voices on Paper</h2>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md mb-8">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4 text-center"><i class="fas fa-balance-scale mr-2"></i> Compare Revolutionary Documents</h3>
+                    <p class="text-lg leading-relaxed text-gray-700 mb-6">
+                        Explore excerpts from foundational documents of liberty and governance. These texts represent the core ideals
+                        and aspirations of their respective revolutions. Observe the shared ideals and the striking contradictions
+                        that define these pivotal texts, revealing the complex and often imperfect pursuit of freedom and equality
+                        across different historical contexts.
+                    </p>
+
+                    <!-- Tabs for documents -->
+                    <div class="flex flex-wrap justify-center mb-6 border-b border-gray-200">
+                        <button class="tab-button px-6 py-3 text-lg font-medium text-gray-700 hover:text-blue-600 hover:border-blue-600 border-b-2 border-transparent transition duration-300 ease-in-out active-tab" data-doc="english">English Bill of Rights (1689)</button>
+                        <button class="tab-button px-6 py-3 text-lg font-medium text-gray-700 hover:text-blue-600 hover:border-blue-600 border-b-2 border-transparent transition duration-300 ease-in-out" data-doc="us">U.S. Declaration of Independence (1776)</button>
+                        <button class="tab-button px-6 py-3 text-lg font-medium text-gray-700 hover:text-blue-600 hover:border-blue-600 border-b-2 border-transparent transition duration-300 ease-in-out" data-doc="french">Declaration of the Rights of Man (1789)</button>
+                        <button class="tab-button px-6 py-3 text-lg font-medium text-gray-700 hover:text-blue-600 hover:border-blue-600 border-b-2 border-transparent transition duration-300 ease-in-out" data-doc="haitian">Haitian Constitution (1805)</button>
+                    </div>
+
+                    <!-- Document content area -->
+                    <div id="document-content" class="bg-white p-6 rounded-lg shadow-inner border border-gray-200 min-h-[250px] flex items-center justify-center text-center flex-col">
+                        <!-- Default content for English Bill of Rights -->
+                        <div id="doc-english" class="doc-panel">
+                            <h4 class="text-xl font-semibold text-gray-900 mb-3">English Bill of Rights (1689)</h4>
+                            <img src="./images/English Bill of Rights.jpg" alt="English Bill of Rights" class="mb-4 rounded-md shadow-sm">
+                            <p class="text-md italic text-gray-600 mb-4">Excerpt:</p>
+                            <blockquote class="text-lg text-gray-800 border-l-4 border-blue-500 pl-4 py-2">
+                                "That the pretended power of suspending of laws or the execution of laws by regal authority without consent of Parliament is illegal; That levying money for or to the use of the Crown by pretence of prerogative without grant of Parliament for longer time or in other manner than the same is or shall be granted is illegal; That it is the right of the subjects to petition the King, and all commitments and prosecutions for such petitioning are illegal."
+                            </blockquote>
+                            <p class="text-sm text-gray-600 mt-4">
+                                This document, a cornerstone of English constitutional law, significantly limited the power of the monarchy and asserted the rights of Parliament and the people. It laid the groundwork for parliamentary democracy and influenced later revolutionary thought.
+                            </p>
+                        </div>
+                        <div id="doc-us" class="doc-panel hidden">
+                            <h4 class="text-xl font-semibold text-gray-900 mb-3">U.S. Declaration of Independence (1776)</h4>
+                            <img src="./images/U.S. Declaration of Independence.avif" alt="U.S. Declaration of Independence" class="mb-4 rounded-md shadow-sm">
+                            <p class="text-md italic text-gray-600 mb-4">Excerpt:</p>
+                            <blockquote class="text-lg text-gray-800 border-l-4 border-blue-500 pl-4 py-2">
+                                "We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness. That to secure these rights, Governments are instituted among Men, deriving their just powers from the consent of the governed."
+                            </blockquote>
+                            <p class="text-sm text-gray-600 mt-4">
+                                Penned primarily by Thomas Jefferson, this declaration articulated the philosophical basis for American independence, emphasizing natural rights and popular sovereignty. Its ideals, though revolutionary, coexisted with the institution of slavery, creating a profound contradiction.
+                            </p>
+                        </div>
+                        <div id="doc-french" class="doc-panel hidden">
+                            <h4 class="text-xl font-semibold text-gray-900 mb-3">Declaration of the Rights of Man and of the Citizen (1789)</h4>
+                            <img src="./images/Declaration of the Rights of Man and of the Citizen.jpg" alt="Declaration of the Rights of Man" class="mb-4 rounded-md shadow-sm">
+                            <p class="text-md italic text-gray-600 mb-4">Excerpt:</p>
+                            <blockquote class="text-lg text-gray-800 border-l-4 border-blue-500 pl-4 py-2">
+                                "Men are born and remain free and equal in rights. Social distinctions may be founded only upon the general good. The aim of all political association is the preservation of the natural and imprescriptible rights of man. These rights are liberty, property, security, and resistance to oppression."
+                            </blockquote>
+                            <p class="text-sm text-gray-600 mt-4">
+                                A fundamental document of the French Revolution, this declaration defined the individual and collective rights of all estates as universal. It served as a blueprint for a new society based on equality and liberty, inspiring movements worldwide.
+                            </p>
+                        </div>
+                        <div id="doc-haitian" class="doc-panel hidden">
+                            <h4 class="text-xl font-semibold text-gray-900 mb-3">Haitian Constitution (1805)</h4>
+                            <img src="./images/Haitian Revolution.webp" alt="Haitian Constitution" class="mb-4 rounded-md shadow-sm">
+                            <p class="text-md italic text-gray-600 mb-4">Excerpt:</p>
+                            <blockquote class="text-lg text-gray-800 border-l-4 border-blue-500 pl-4 py-2">
+                                "Slavery is forever abolished. All men are born, live and die free and equal under the law. No white man, whatever his nation, shall put his foot on this territory with the title of master or proprietor, he shall not be able to acquire any property in it, and shall not be able to remain in it except as an employee, or a merchant."
+                            </blockquote>
+                            <p class="text-sm text-gray-600 mt-4">
+                                Drafted after Haiti's independence, this constitution was revolutionary in its explicit abolition of slavery and its assertion of racial equality. It was a radical statement against the prevailing colonial and racial hierarchies of the time.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-blue-50 p-6 rounded-lg shadow-md border border-blue-200">
+                    <h3 class="text-2xl font-semibold text-blue-800 mb-4 text-center"><i class="fas fa-handshake mr-2"></i> Shared Themes & Contradictions</h3>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <h4 class="text-xl font-semibold text-gray-900 mb-2">Shared Themes:</h4>
+                            <ul class="list-disc list-inside text-lg text-gray-700 space-y-2">
+                                <li><i class="fas fa-check-circle text-green-500 mr-2"></i> <strong>Individual Liberty and Rights:</strong> All documents champion the idea of inherent rights for individuals, including freedom of speech, religion, and property.</li>
+                                <li><i class="fas fa-check-circle text-green-500 mr-2"></i> <strong>Popular Sovereignty and Consent:</strong> A recurring theme is that legitimate government power derives from the consent of the governed, challenging monarchical divine right.</li>
+                                <li><i class="fas fa-check-circle text-green-500 mr-2"></i> <strong>Rejection of Arbitrary Power:</strong> Each revolution sought to dismantle systems of arbitrary rule, whether from an absolute monarch or a colonial empire, advocating for rule of law.</li>
+                                <li><i class="fas fa-check-circle text-green-500 mr-2"></i> <strong>Pursuit of Justice and Equality:</strong> While interpreted differently, the revolutions aimed for a more just society, emphasizing equality before the law, even if social and racial inequalities persisted.</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-semibold text-gray-900 mb-2">Contradictions:</h4>
+                            <ul class="list-disc list-inside text-lg text-gray-700 space-y-2">
+                                <li><i class="fas fa-times-circle text-red-500 mr-2"></i> <strong>Slavery:</strong> The U.S. Declaration proclaimed "all men are created equal" while upholding chattel slavery, a stark contrast to the Haitian Constitution which explicitly and radically abolished it.</li>
+                                <li><i class="fas fa-times-circle text-red-500 mr-2"></i> <strong>Inclusion:</strong> The French Declaration spoke of universal "man" but initially excluded women and people of color from full citizenship; the Haitian Revolution was unique in being led by and for enslaved people.</li>
+                                <li><i class="fas fa-times-circle text-red-500 mr-2"></i> <strong>Property Rights vs. Human Liberty:</strong> While property rights were central to many declarations, their prioritization sometimes overshadowed the full realization of human liberty, particularly for the impoverished or enslaved.</li>
+                                <li><i class="fas fa-times-circle text-red-500 mr-2"></i> <strong>Revolutionary Violence:</strong> The ideals of liberty often clashed with the brutal realities of revolutionary violence, most notably during the Reign of Terror in France, raising questions about the means to achieve revolutionary ends.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Debate Zone Page Content -->
+        <section id="debate-page" class="page-content hidden">
+            <div class="py-8 px-4">
+                <h2 class="text-4xl font-bold text-blue-700 mb-8 text-center">Debate Zone: Historians' Perspectives</h2>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md mb-8">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4"><i class="fas fa-question-circle mr-2"></i> Has the meaning of "freedom" changed?</h3>
+                    <p class="text-lg leading-relaxed text-gray-700 mb-4">
+                        Historians vigorously debate whether the concept of "freedom" has remained constant or evolved significantly since the Age of Revolutions.
+                        Initially, "freedom" often referred primarily to political liberty from monarchical or imperial control, and the specific rights of property-owning men to participate in governance.
+                        However, the very act of revolution, especially the radical actions of the Haitian Revolution, pushed the boundaries of this definition.
+                        Over time, the concept expanded to include freedom from chattel slavery, civil rights for all citizens regardless of race or gender, economic justice, and broader social equality.
+                        This ongoing evolution highlights the dynamic nature of human rights and the continuous struggle to realize universal ideals.
+                    </p>
+                    <p class="text-md italic text-gray-600">
+                        "Freedom, in its modern sense, is less about the absence of restraint and more about the presence of opportunity and the recognition of inherent dignity for all. It's a journey, not a static destination." - Dr. Anya Sharma, Contemporary Historian.
+                    </p>
+                    <!-- Image for Freedom debate -->
+                    <img src="./images/Debate Zone.avif" alt="Evolving Freedom" class="w-full md:w-2/3 mx-auto mt-6 rounded-lg shadow-md">
+                    <p class="text-sm text-gray-500 mt-2 text-center"><em>An abstract representation of the evolving nature of liberty and rights throughout history.</em></p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4"><i class="fas fa-check-double mr-2"></i> Did these revolutions succeed in their goals?</h3>
+                    <p class="text-lg leading-relaxed text-gray-700 mb-4">
+                        The success of these revolutions is a complex and often debated topic, as their outcomes varied greatly and often fell short of their initial, lofty ideals.
+                        The Glorious Revolution largely succeeded in establishing parliamentary supremacy and a constitutional monarchy in England, setting a precedent for limited government.
+                        The American Revolution achieved independence and established a republic, but its foundational ideals of liberty were deeply contradicted by the persistence of slavery for another 80 years.
+                        The French Revolution, while initially aiming for liberty and equality, devolved into the brutal Reign of Terror and ultimately led to Napoleon's authoritarian rule, though its ideals profoundly influenced subsequent movements across Europe.
+                        The Haitian Revolution achieved complete independence and the abolition of slavery, a monumental success against overwhelming odds, but faced severe international isolation and economic hardship for generations.
+                        Thus, "success" is often measured not just by immediate outcomes, but by long-term impact on global political thought and subsequent struggles for liberation.
+                    </p>
+                    <p class="text-md italic text-gray-600">
+                        "Revolutions are rarely clean victories; they are messy, transformative processes whose full implications unfold over generations, often creating new challenges even as they resolve old ones." - Prof. Liam O'Connell, Revolutionary Studies.
+                    </p>
+                    <!-- Image for Success debate -->
+                    <img src="./images/revolutionary success.jpg" alt="Revolutionary Success" class="w-full md:w-2/3 mx-auto mt-6 rounded-lg shadow-md">
+                    <p class="text-sm text-gray-500 mt-2 text-center"><em>A visual metaphor for the mixed outcomes and enduring legacies of revolutionary movements.</em></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Timeline Page Content -->
+        <section id="timeline-page" class="page-content hidden">
+            <div class="py-8 px-4">
+                <h2 class="text-4xl font-bold text-blue-700 mb-8 text-center">Timeline of Revolution (1688-1805)</h2>
+                <div class="relative wrap overflow-hidden p-10 h-full">
+                    <div class="border-2-2 absolute border-opacity-20 border-gray-700 h-full border" style="left: 50%;"></div>
+
+                    <!-- Glorious Revolution -->
+                    <div class="mb-8 flex justify-between items-center w-full right-timeline">
+                        <div class="order-1 w-5/12"></div>
+                        <div class="z-20 flex items-center order-1 bg-blue-600 shadow-xl w-8 h-8 rounded-full">
+                            <h1 class="mx-auto font-semibold text-lg text-white">1</h1>
+                        </div>
+                        <div class="order-1 bg-blue-100 rounded-lg shadow-xl w-5/12 px-6 py-4">
+                            <h3 class="mb-3 font-bold text-gray-800 text-xl">1688-1689: Glorious Revolution (England)</h3>
+                            <p class="text-md leading-snug tracking-wide text-gray-700 text-opacity-100 mb-3">
+                                This largely bloodless revolution saw the overthrow of Catholic King James II by Protestant William of Orange and Mary II. It solidified parliamentary power and led to the drafting of the English Bill of Rights, establishing a constitutional monarchy.
+                            </p>
+                            <img src="./images/Glorious Revolution.avif" alt="Glorious Revolution" class="rounded-md shadow-sm mt-2">
+                        </div>
+                    </div>
+
+                    <!-- American Revolution -->
+                    <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+                        <div class="order-1 w-5/12"></div>
+                        <div class="z-20 flex items-center order-1 bg-indigo-600 shadow-xl w-8 h-8 rounded-full">
+                            <h1 class="mx-auto font-semibold text-lg text-white">2</h1>
+                        </div>
+                        <div class="order-1 bg-indigo-100 rounded-lg shadow-xl w-5/12 px-6 py-4">
+                            <h3 class="mb-3 font-bold text-gray-800 text-xl">1775-1783: American Revolution (North America)</h3>
+                            <p class="text-md leading-snug tracking-wide text-gray-700 text-opacity-100 mb-3">
+                                A struggle for independence by thirteen British colonies against Great Britain. This conflict resulted in the formation of the United States of America, based on republican ideals and self-governance.
+                            </p>
+                            <img src="./images/American Revolution.jpg" alt="American Revolution" class="rounded-md shadow-sm mt-2">
+                        </div>
+                    </div>
+
+                    <!-- U.S. Declaration of Independence -->
+                    <div class="mb-8 flex justify-between items-center w-full right-timeline">
+                        <div class="order-1 w-5/12"></div>
+                        <div class="z-20 flex items-center order-1 bg-blue-600 shadow-xl w-8 h-8 rounded-full">
+                            <h1 class="mx-auto font-semibold text-lg text-white">3</h1>
+                        </div>
+                        <div class="order-1 bg-blue-100 rounded-lg shadow-xl w-5/12 px-6 py-4">
+                            <h3 class="mb-3 font-bold text-gray-800 text-xl">1776: U.S. Declaration of Independence</h3>
+                            <p class="text-md leading-snug tracking-wide text-gray-700 text-opacity-100 mb-3">
+                                Adopted by the Continental Congress, this seminal document declared the thirteen American colonies independent from British rule and articulated the philosophical principles of individual rights and self-government.
+                            </p>
+                            <img src="./images/U.S. Declaration of Independence.avif" alt="U.S. Declaration of Independence" class="rounded-md shadow-sm mt-2">
+                        </div>
+                    </div>
+
+                    <!-- French Revolution -->
+                    <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+                        <div class="order-1 w-5/12"></div>
+                        <div class="z-20 flex items-center order-1 bg-indigo-600 shadow-xl w-8 h-8 rounded-full">
+                            <h1 class="mx-auto font-semibold text-lg text-white">4</h1>
+                        </div>
+                        <div class="order-1 bg-indigo-100 rounded-lg shadow-xl w-5/12 px-6 py-4">
+                            <h3 class="mb-3 font-bold text-gray-800 text-xl">1789-1799: French Revolution (France)</h3>
+                            <p class="text-md leading-snug tracking-wide text-gray-700 text-opacity-100 mb-3">
+                                A period of radical social and political upheaval that saw the overthrow of the Bourbon monarchy, the rise of republicanism, and profound changes in French society, though it also included periods of extreme violence like the Reign of Terror.
+                            </p>
+                            <img src="./images/French Revolution.webp" alt="French Revolution" class="rounded-md shadow-sm mt-2">
+                        </div>
+                    </div>
+
+                    <!-- Declaration of the Rights of Man -->
+                    <div class="mb-8 flex justify-between items-center w-full right-timeline">
+                        <div class="order-1 w-5/12"></div>
+                        <div class="z-20 flex items-center order-1 bg-blue-600 shadow-xl w-8 h-8 rounded-full">
+                            <h1 class="mx-auto font-semibold text-lg text-white">5</h1>
+                        </div>
+                        <div class="order-1 bg-blue-100 rounded-lg shadow-xl w-5/12 px-6 py-4">
+                            <h3 class="mb-3 font-bold text-gray-800 text-xl">1789: Declaration of the Rights of Man and of the Citizen (France)</h3>
+                            <p class="text-md leading-snug tracking-wide text-gray-700 text-opacity-100 mb-3">
+                                A foundational document of the French Revolution, proclaiming that all citizens are equal before the law and possess natural, inalienable rights such as liberty, property, security, and resistance to oppression.
+                            </p>
+                            <img src="./images/Declaration of the Rights of Man and of the Citizen.jpg" alt="Declaration of the Rights of Man" class="rounded-md shadow-sm mt-2">
+                        </div>
+                    </div>
+
+                    <!-- Haitian Revolution -->
+                    <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+                        <div class="order-1 w-5/12"></div>
+                        <div class="z-20 flex items-center order-1 bg-indigo-600 shadow-xl w-8 h-8 rounded-full">
+                            <h1 class="mx-auto font-semibold text-lg text-white">6</h1>
+                        </div>
+                        <div class="order-1 bg-indigo-100 rounded-lg shadow-xl w-5/12 px-6 py-4">
+                            <h3 class="mb-3 font-bold text-gray-800 text-xl">1791-1804: Haitian Revolution (Saint-Domingue/Haiti)</h3>
+                            <p class="text-md leading-snug tracking-wide text-gray-700 text-opacity-100 mb-3">
+                                The only successful slave revolt in history, leading to the self-liberation of enslaved people and the establishment of Haiti as the first independent black republic. It was a powerful blow against slavery and colonialism.
+                            </p>
+                            <img src="./images/Haitian Revolution.webp" alt="Haitian Revolution" class="rounded-md shadow-sm mt-2">
+                        </div>
+                    </div>
+
+                    <!-- Haitian Constitution -->
+                    <div class="mb-8 flex justify-between items-center w-full right-timeline">
+                        <div class="order-1 w-5/12"></div>
+                        <div class="z-20 flex items-center order-1 bg-blue-600 shadow-xl w-8 h-8 rounded-full">
+                            <h1 class="mx-auto font-semibold text-lg text-white">7</h1>
+                        </div>
+                        <div class="order-1 bg-blue-100 rounded-lg shadow-xl w-5/12 px-6 py-4">
+                            <h3 class="mb-3 font-bold text-gray-800 text-xl">1805: Haitian Constitution</h3>
+                            <p class="text-md leading-snug tracking-wide text-gray-700 text-opacity-100 mb-3">
+                                This constitution, enacted after Haiti's independence, formally abolished slavery and declared all citizens free and equal, regardless of color. It was a radical and pioneering document for its time.
+                            </p>
+                            <img src="./images/Haitian Constitution.png" alt="Haitian Constitution" class="rounded-md shadow-sm mt-2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Propaganda Page Content -->
+        <section id="propaganda-page" class="page-content hidden">
+            <div class="py-8 px-4">
+                <h2 class="text-4xl font-bold text-blue-700 mb-8 text-center">Propaganda & Persuasion: Voices That Stirred Nations</h2>
+                <p class="text-lg leading-relaxed text-gray-700 mb-8 text-center">
+                    Revolutions are not just fought on battlefields; they are won in the hearts and minds of the people.
+                    Propaganda, through posters, pamphlets, and powerful quotes, played a crucial role in mobilizing support,
+                    demonizing the old order, and articulating the vision for a new society. These persuasive elements
+                    were vital in shaping public opinion and galvanizing revolutionary fervor.
+                </p>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Quote 1: American Revolution -->
+                    <div class="bg-blue-100 p-6 rounded-lg shadow-lg border border-blue-200 flex flex-col justify-between">
+                        <div>
+                            <i class="fas fa-quote-left text-blue-500 text-3xl mb-4 block"></i>
+                            <p class="text-xl italic text-gray-800 mb-4">
+                                "Give me liberty or give me death!"
+                            </p>
+                        </div>
+                        <p class="text-lg font-semibold text-right text-gray-700">- Patrick Henry, American Revolution</p>
+                        <p class="text-sm text-gray-600 mt-2">
+                            Patrick Henry's impassioned speech in 1775 rallied American colonists to resist British rule, becoming a timeless cry for freedom and a symbol of revolutionary defiance.
+                        </p>
+                        <img src="https://placehold.co/250x150/AEC6CF/000000?text=Patrick+Henry" alt="Patrick Henry Quote" class="rounded-md shadow-sm mt-4 mx-auto">
+                    </div>
+
+                    <!-- Quote 2: French Revolution -->
+                    <div class="bg-indigo-100 p-6 rounded-lg shadow-lg border border-indigo-200 flex flex-col justify-between">
+                        <div>
+                            <i class="fas fa-quote-left text-indigo-500 text-3xl mb-4 block"></i>
+                            <p class="text-xl italic text-gray-800 mb-4">
+                                "Liberty, Equality, Fraternity."
+                            </p>
+                        </div>
+                        <p class="text-lg font-semibold text-right text-gray-700">- Motto of the French Revolution</p>
+                        <p class="text-sm text-gray-600 mt-2">
+                            This powerful triad became the rallying cry of the French Revolution, encapsulating the core ideals of freedom from oppression, social parity, and national unity.
+                        </p>
+                        <img src="https://placehold.co/250x150/ADD8E6/000000?text=French+Motto" alt="French Revolution Motto" class="rounded-md shadow-sm mt-4 mx-auto">
+                    </div>
+
+                    <!-- Quote 3: Haitian Revolution -->
+                    <div class="bg-green-100 p-6 rounded-lg shadow-lg border border-green-200 flex flex-col justify-between">
+                        <div>
+                            <i class="fas fa-quote-left text-green-500 text-3xl mb-4 block"></i>
+                            <p class="text-xl italic text-gray-800 mb-4">
+                                "I have made my studies, and I have learned that the tree of liberty must be watered with the blood of tyrants."
+                            </p>
+                        </div>
+                        <p class="text-lg font-semibold text-right text-gray-700">- Toussaint Louverture, Haitian Revolution (paraphrased)</p>
+                        <p class="text-sm text-gray-600 mt-2">
+                            Attributed to the brilliant leader of the Haitian Revolution, this quote reflects the fierce determination required to overthrow the brutal system of slavery and colonialism.
+                        </p>
+                        <img src="https://placehold.co/250x150/87CEEB/000000?text=Toussaint+Louverture" alt="Toussaint Louverture Quote" class="rounded-md shadow-sm mt-4 mx-auto">
+                    </div>
+
+                    <!-- Placeholder for a visual element description -->
+                    <div class="bg-yellow-100 p-6 rounded-lg shadow-lg border border-yellow-200 flex flex-col justify-between">
+                        <div>
+                            <i class="fas fa-paint-brush text-yellow-600 text-3xl mb-4 block"></i>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-3">Symbolic Imagery</h3>
+                            <p class="text-md text-gray-700">
+                                Revolutionary posters and pamphlets frequently employed powerful symbols to convey complex ideas to a largely illiterate population. The Phrygian cap (symbolizing liberty), broken chains (representing freedom from oppression), and allegorical figures like Marianne (personifying the French Republic) were instantly recognizable and highly effective in mobilizing support.
+                            </p>
+                        </div>
+                        <img src="https://placehold.co/250x150/6A5ACD/FFFFFF?text=Symbolic+Poster" alt="Symbolic Imagery Placeholder" class="rounded-md shadow-sm mt-4 mx-auto">
+                    </div>
+
+                    <!-- Placeholder for another visual element description -->
+                    <div class="bg-red-100 p-6 rounded-lg shadow-lg border border-red-200 flex flex-col justify-between">
+                        <div>
+                            <i class="fas fa-bullhorn text-red-600 text-3xl mb-4 block"></i>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-3">Call to Arms</h3>
+                            <p class="text-md text-gray-700">
+                                Many propaganda elements directly called citizens to arms, to join militias, or to rise against perceived tyranny. These often stark and urgent messages used strong contrasts between the 'oppressor' (e.g., King George III, the French monarchy) and the 'patriot' to galvanize action and encourage military participation.
+                            </p>
+                        </div>
+                        <img src="https://placehold.co/250x150/4682B4/FFFFFF?text=Call+to+Arms+Poster" alt="Call to Arms Placeholder" class="rounded-md shadow-sm mt-4 mx-auto">
+                    </div>
+
+                    <!-- Placeholder for another visual element description -->
+                    <div class="bg-purple-100 p-6 rounded-lg shadow-lg border border-purple-200 flex flex-col justify-between">
+                        <div>
+                            <i class="fas fa-comments text-purple-600 text-3xl mb-4 block"></i>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-3">Rhetoric of Rights</h3>
+                            <p class="text-md text-gray-700">
+                                Pamphlets and declarations used persuasive language to articulate universal rights, appealing to reason and natural law. Works like Thomas Paine's "Common Sense" (American Revolution) were incredibly influential, translating complex philosophical ideas into accessible arguments that convinced ordinary people of the justice and necessity of revolution.
+                            </p>
+                        </div>
+                        <img src="https://placehold.co/250x150/00CED1/000000?text=Rhetoric+Pamphlet" alt="Rhetoric Pamphlet Placeholder" class="rounded-md shadow-sm mt-4 mx-auto">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-900 text-gray-400 p-6 text-center mt-auto rounded-t-xl">
+        <div class="container mx-auto">
+            <p>&copy; 2025 Voices of Revolution made by Huu Nghia Pham. All rights reserved.</p>
+            <p class="text-sm mt-2">"The tree of liberty must be refreshed from time to time with the blood of patriots and tyrants." - Thomas Jefferson</p>
+        </div>
+    </footer>
+
+    <script>
+        // Get references to DOM elements
+        const contentDiv = document.getElementById('content');
+
+        /**
+         * Renders the content for the specified page by showing/hiding sections.
+         * @param {string} pageId - The ID of the page to render (e.g., 'home', 'glorious').
+         */
+        function renderPage(pageId) {
+            // Select all page content sections
+            const allPageSections = document.querySelectorAll('.page-content');
+
+            // Hide all sections
+            allPageSections.forEach(section => {
+                section.classList.add('hidden');
+            });
+
+            // Show the requested section
+            const targetSection = document.getElementById(`${pageId}-page`);
+            if (targetSection) {
+                targetSection.classList.remove('hidden');
+            }
+
+            // If the declarations page is loaded, attach event listeners to its tabs
+            if (pageId === 'declarations') {
+                attachDeclarationsTabListeners();
+            }
+        }
+
+        /**
+         * Attaches event listeners to the tab buttons in the Declarations Gallery.
+         * This function needs to be called whenever the declarations page is rendered.
+         */
+        function attachDeclarationsTabListeners() {
+            const docTabButtons = document.querySelectorAll('.tab-button');
+            const docPanels = document.querySelectorAll('.doc-panel');
+
+            docTabButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Remove active class from all buttons
+                    docTabButtons.forEach(btn => btn.classList.remove('active-tab', 'border-blue-600', 'text-blue-600'));
+                    // Add active class to clicked button
+                    this.classList.add('active-tab', 'border-blue-600', 'text-blue-600');
+
+                    // Hide all document panels
+                    docPanels.forEach(panel => panel.classList.add('hidden'));
+                    // Show the corresponding document panel
+                    const targetDocId = this.dataset.doc;
+                    document.getElementById(`doc-${targetDocId}`).classList.remove('hidden');
+                });
+            });
+
+            // Set initial active tab styling for the first tab on load
+            const initialTab = document.querySelector('.tab-button[data-doc="english"]');
+            if (initialTab) {
+                initialTab.classList.add('active-tab', 'border-blue-600', 'text-blue-600');
+            }
+        }
+
+
+        // Event listener using event delegation for navigation links
+        // This listener is attached to the document body to catch clicks on any nav-link,
+        // including those dynamically added or present from the start.
+        document.addEventListener('click', function(event) {
+            // Find the closest ancestor with the 'nav-link' class
+            const targetLink = event.target.closest('.nav-link');
+
+            if (targetLink) {
+                event.preventDefault(); // Prevent default link behavior (page reload)
+                const pageId = targetLink.dataset.page;
+                renderPage(pageId);
+            }
+        });
+
+        // Initial page load: Render the homepage when the DOM is fully loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            renderPage('home');
+        });
+    </script>
+</body>
+</html>
